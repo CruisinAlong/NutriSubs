@@ -57,3 +57,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = NutriSubs.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/USER/Dropbox/PC/Documents/GitHub/NutriSubs/NutriSubs/NutriSubs/SubstitutesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = NutriSubs.SubstitutesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SubstitutesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SubstitutesPage.xaml

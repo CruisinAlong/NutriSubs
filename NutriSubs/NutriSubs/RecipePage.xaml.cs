@@ -1,5 +1,7 @@
 using NutriSubs.Models;
 
+using NutriSubs.Services;
+
 namespace NutriSubs
 {
     public partial class RecipePage : ContentPage
@@ -65,13 +67,32 @@ namespace NutriSubs
 
         private async void OnFindSubstitutesClicked(object? sender, EventArgs e)
         {
-            // Placeholder: the substitution engine and screen are owned by another team member.
             FindSubstitutesRequested?.Invoke(this, _recipe);
 
-            await DisplayAlert(
-                "Find Substitutes",
-                "Ingredient substitution functionality will be connected here later.",
-                "OK");
+            if (_recipe.Ingredients.Count == 0)
+            {
+                await DisplayAlert("Find Substitutes", "This recipe has no ingredients listed.", "OK");
+                return;
+            }
+
+            var choice = await DisplayActionSheet(
+                "Find substitutes for which ingredient?",
+                "Cancel",
+                null,
+                _recipe.Ingredients.ToArray());
+
+            if (string.IsNullOrWhiteSpace(choice) || choice == "Cancel")
+                return;
+
+            var lookupService = Handler?.MauiContext?.Services.GetService<ISubstitutionLookupService>();
+
+            if (lookupService is null)
+            {
+                await DisplayAlert("Find Substitutes", "The substitution feature is unavailable right now.", "OK");
+                return;
+            }
+
+            await Navigation.PushAsync(new SubstitutesPage(lookupService, choice));
         }
     }
 }
