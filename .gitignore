@@ -1,0 +1,121 @@
+
+# ==========================================
+# Visual Studio Community
+# ==========================================
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.userprefs
+
+# Visual Studio local history and caches
+.localhistory/
+.vshistory/
+*.cache
+*.tmp
+*.log
+
+# ==========================================
+# GitHub Copilot / AI assistant local files
+# ==========================================
+
+# Local Copilot instruction/chat artifacts, if generated
+.github/copilot-chat/
+.github/copilot-workspace/
+.copilot/
+copilot-instructions.local.md
+
+# AI tool local logs and temporary output
+CustomAgentLogsTmp/
+.agent/
+.agents/
+
+# NOTE:
+# Keep intentional shared files such as
+# .github/copilot-instructions.md,
+# .github/instructions/,
+# .github/agents/, and .github/skills/
+# if your team uses them.
+
+# ==========================================
+# .NET / C# build output
+# ==========================================
+
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+
+# Generated build metadata
+*.pdb
+*.mdb
+*.cachefile
+*.binlog
+*.ilk
+*.obj
+*.iobj
+*.pch
+*.tmp_proj
+
+# ==========================================
+# NuGet packages
+# ==========================================
+
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+
+# ==========================================
+# .NET MAUI / Android build artifacts
+# ==========================================
+
+.vs/
+.gradle/
+.idea/
+**/bin/
+**/obj/
+**/build/
+**/.gradle/
+
+# Android local SDK configuration
+local.properties
+
+# Built application packages
+*.apk
+*.aab
+
+# ==========================================
+# Windows / macOS temporary files
+# ==========================================
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+
+# ==========================================
+# User-specific configuration and secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+*.pfx
+*.publishsettings
+*.user.secrets
+
+# Visual Studio publish profiles may contain credentials
+*.pubxml

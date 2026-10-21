@@ -1,0 +1,67 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NutriSubs.RecipePage"
+             Title="Recipe">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="24" Spacing="16">
+
+            <Label
+                x:Name="NameLabel"
+                FontSize="26"
+                FontAttributes="Bold" />
+
+            <Label
+                x:Name="DescriptionLabel"
+                FontSize="15"
+                TextColor="Gray" />
+
+            <HorizontalStackLayout Spacing="20">
+                <Label x:Name="PrepTimeLabel" FontSize="13" TextColor="Gray" />
+                <Label x:Name="CookTimeLabel" FontSize="13" TextColor="Gray" />
+            </HorizontalStackLayout>
+
+            <!-- Adjust Servings -->
+            <Frame Padding="14" CornerRadius="12" BorderColor="LightGray">
+                <HorizontalStackLayout Spacing="14" HorizontalOptions="Center">
+                    <Button Text="-" WidthRequest="40" Clicked="OnDecreaseServingsClicked" />
+                    <Label
+                        x:Name="ServingsLabel"
+                        VerticalOptions="Center"
+                        FontAttributes="Bold" />
+                    <Button Text="+" WidthRequest="40" Clicked="OnIncreaseServingsClicked" />
+                </HorizontalStackLayout>
+            </Frame>
+
+            <!-- Ingredients -->
+            <Label Text="Ingredients" FontAttributes="Bold" FontSize="18" />
+            <CollectionView x:Name="IngredientsCollectionView" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding .}" FontSize="14" Margin="0,2" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Instructions -->
+            <Label Text="Instructions" FontAttributes="Bold" FontSize="18" />
+            <CollectionView x:Name="InstructionsCollectionView" SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding .}" FontSize="14" Margin="0,4" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Find Substitutes (placeholder for another team member's feature) -->
+            <Button
+                Text="Find Substitutes"
+                BackgroundColor="#512BD4"
+                TextColor="White"
+                Clicked="OnFindSubstitutesClicked"
+                HorizontalOptions="Fill" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
