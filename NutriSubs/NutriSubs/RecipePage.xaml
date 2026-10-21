@@ -14,15 +14,25 @@
             <Label
                 x:Name="DescriptionLabel"
                 FontSize="15"
-                TextColor="Gray" />
+                TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+
+            <Label
+                x:Name="SourceUrlLabel"
+                FontSize="12"
+                TextColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                IsVisible="False" />
 
             <HorizontalStackLayout Spacing="20">
-                <Label x:Name="PrepTimeLabel" FontSize="13" TextColor="Gray" />
-                <Label x:Name="CookTimeLabel" FontSize="13" TextColor="Gray" />
+                <Label x:Name="PrepTimeLabel" FontSize="13" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                <Label x:Name="CookTimeLabel" FontSize="13" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
             </HorizontalStackLayout>
 
             <!-- Adjust Servings -->
-            <Frame Padding="14" CornerRadius="12" BorderColor="LightGray">
+            <Frame
+                Padding="14"
+                CornerRadius="12"
+                BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}"
+                BorderColor="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}">
                 <HorizontalStackLayout Spacing="14" HorizontalOptions="Center">
                     <Button Text="-" WidthRequest="40" Clicked="OnDecreaseServingsClicked" />
                     <Label
@@ -56,8 +66,8 @@
             <!-- Find Substitutes (placeholder for another team member's feature) -->
             <Button
                 Text="Find Substitutes"
-                BackgroundColor="#512BD4"
-                TextColor="White"
+                BackgroundColor="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}"
+                TextColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource PrimaryDarkText}}"
                 Clicked="OnFindSubstitutesClicked"
                 HorizontalOptions="Fill" />
 

@@ -11,19 +11,32 @@ namespace NutriSubs
         // Example usage: recipePage.FindSubstitutesRequested += (s, recipe) => { /* navigate to substitution screen */ };
         public event EventHandler<Recipe>? FindSubstitutesRequested;
 
+        // Opens a sample recipe by id (existing behavior, unchanged).
         public RecipePage(int recipeId)
+            : this(SampleRecipes.GetById(recipeId)
+                   ?? throw new ArgumentException($"No sample recipe found with id {recipeId}", nameof(recipeId)))
+        {
+        }
+
+        // Opens a recipe object directly. Used for recipes imported from a URL,
+        // which are displayed using the exact same screen/layout as sample recipes.
+        public RecipePage(Recipe recipe)
         {
             InitializeComponent();
 
-            _recipe = SampleRecipes.GetById(recipeId)
-                       ?? throw new ArgumentException($"No sample recipe found with id {recipeId}", nameof(recipeId));
-
-            _currentServings = _recipe.Servings;
+            _recipe = recipe ?? throw new ArgumentNullException(nameof(recipe));
+            _currentServings = _recipe.Servings > 0 ? _recipe.Servings : 1;
 
             NameLabel.Text = _recipe.Name;
             DescriptionLabel.Text = _recipe.Description;
             PrepTimeLabel.Text = $"Prep: {_recipe.PrepTimeMinutes} min";
             CookTimeLabel.Text = $"Cook: {_recipe.CookTimeMinutes} min";
+
+            if (!string.IsNullOrWhiteSpace(_recipe.SourceUrl))
+            {
+                SourceUrlLabel.Text = $"Source: {_recipe.SourceUrl}";
+                SourceUrlLabel.IsVisible = true;
+            }
 
             IngredientsCollectionView.ItemsSource = _recipe.Ingredients;
             InstructionsCollectionView.ItemsSource = _recipe.Instructions;

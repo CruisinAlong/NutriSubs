@@ -1,9 +1,12 @@
 using NutriSubs.Models;
+using NutriSubs.Services;
 
 namespace NutriSubs
 {
     public partial class MainPage : ContentPage
     {
+        private readonly RecipeImportService _recipeImportService = new();
+
         public MainPage()
         {
             InitializeComponent();
@@ -20,8 +23,28 @@ namespace NutriSubs
                 return;
             }
 
-            // Recipe importing/scraping is a planned feature and is not implemented yet.
-            await DisplayAlert("Import Recipe", "Recipe importing from a URL is a planned feature and isn't available yet.", "OK");
+            ImportRecipeButton.IsEnabled = false;
+            ImportRecipeButton.Text = "Importing...";
+
+            try
+            {
+                var recipe = await _recipeImportService.ImportFromUrlAsync(url);
+                await Navigation.PushAsync(new RecipePage(recipe));
+            }
+            catch (RecipeImportException ex)
+            {
+                await DisplayAlert("Import Recipe", ex.Message, "OK");
+            }
+            catch (Exception)
+            {
+                // Catch-all so an unexpected error never crashes the app during import.
+                await DisplayAlert("Import Recipe", "Something went wrong while importing this recipe. Please try a different URL.", "OK");
+            }
+            finally
+            {
+                ImportRecipeButton.IsEnabled = true;
+                ImportRecipeButton.Text = "Import Recipe";
+            }
         }
 
         private async void OnViewRecipeClicked(object? sender, EventArgs e)

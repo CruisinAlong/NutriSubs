@@ -17,19 +17,24 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Eat well. Spend wisely."
+                Text="Eat well. Spend well."
                 FontSize="16"
-                TextColor="Gray"
+                TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}"
                 HorizontalOptions="Center" />
 
             <!-- Import Recipe -->
-            <Frame Padding="16" CornerRadius="12" BorderColor="LightGray">
+            <Frame
+                Padding="16"
+                CornerRadius="12"
+                BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}"
+                BorderColor="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}">
                 <VerticalStackLayout Spacing="10">
                     <Label Text="Import a Recipe" FontAttributes="Bold" FontSize="18" />
                     <Entry
                         x:Name="RecipeUrlEntry"
                         Placeholder="Paste a recipe URL here" />
                     <Button
+                        x:Name="ImportRecipeButton"
                         Text="Import Recipe"
                         Clicked="OnImportRecipeClicked"
                         HorizontalOptions="Fill" />
@@ -45,11 +50,16 @@
             <CollectionView x:Name="RecipesCollectionView" SelectionMode="None">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Frame Padding="14" Margin="0,0,0,10" CornerRadius="12" BorderColor="LightGray">
+                        <Frame
+                            Padding="14"
+                            Margin="0,0,0,10"
+                            CornerRadius="12"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}"
+                            BorderColor="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}">
                             <VerticalStackLayout Spacing="6">
                                 <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="16" />
-                                <Label Text="{Binding Description}" FontSize="13" TextColor="Gray" />
-                                <Label Text="{Binding PrepTimeDisplay}" FontSize="12" TextColor="Gray" />
+                                <Label Text="{Binding Description}" FontSize="13" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                                <Label Text="{Binding PrepTimeDisplay}" FontSize="12" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
                                 <Button
                                     Text="View Recipe"
                                     HorizontalOptions="Start"
