@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriSubs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3795363cebd467bbce4264fdb92b66d2f27c7738")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+4a91f481b1395fc781d7db34abb7b968048cf72e")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriSubs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriSubs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
