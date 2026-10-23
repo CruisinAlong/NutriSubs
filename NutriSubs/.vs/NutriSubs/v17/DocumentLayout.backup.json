@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\data\\seed\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\substitutespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\substitutespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\services\\substitutionlookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\services\\substitutionlookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\services\\ingredientrecognitionselfcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\services\\ingredientrecognitionselfcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\recipepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\recipepage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,28 +139,32 @@
       "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\services\\substitutionlookupresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\services\\substitutionlookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\services\\substitutionlookupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\substitutespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\substitutespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\substitutespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\substitutespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\models\\parsedingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\models\\parsedingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\services\\ingredientparsingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\services\\ingredientparsingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\NutriSubs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NutriSubs.Tests\\NutriSubs.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\services\\ingredientnamematcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\services\\ingredientnamematcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\IngredientParsingServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NutriSubs.Tests\\IngredientParsingServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\IngredientNameMatcherTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NutriSubs.Tests\\IngredientNameMatcherTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|c:\\users\\user\\dropbox\\pc\\documents\\github\\nutrisubs\\nutrisubs\\nutrisubs\\substitutespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7BD7EA8B-0C19-46D5-AA27-4274A4E38D11}|NutriSubs\\NutriSubs.csproj|solutionrelative:nutrisubs\\substitutespage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,7 +174,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -198,20 +202,150 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
+              "Title": "SubstitutesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml",
+              "RelativeDocumentMoniker": "NutriSubs\\SubstitutesPage.xaml",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml",
+              "RelativeToolTip": "NutriSubs\\SubstitutesPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-21T13:21:18.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Seed\\SeedData.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\Data\\Seed\\SeedData.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Seed\\SeedData.cs",
+              "RelativeToolTip": "NutriSubs\\Data\\Seed\\SeedData.cs",
+              "ViewState": "AgIAAHMBAAAAAAAAAAASwJUBAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:33:09.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubstitutesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\SubstitutesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml.cs",
+              "RelativeToolTip": "NutriSubs\\SubstitutesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:38:45.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IngredientRecognitionSelfCheck.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\IngredientRecognitionSelfCheck.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\Services\\IngredientRecognitionSelfCheck.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\IngredientRecognitionSelfCheck.cs",
+              "RelativeToolTip": "NutriSubs\\Services\\IngredientRecognitionSelfCheck.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAA2wGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T12:26:34.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\App.xaml.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\App.xaml.cs",
+              "RelativeToolTip": "NutriSubs\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:39:37.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SubstitutionLookupService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\SubstitutionLookupService.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\Services\\SubstitutionLookupService.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\SubstitutionLookupService.cs",
+              "RelativeToolTip": "NutriSubs\\Services\\SubstitutionLookupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:37:39.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "IngredientParsingService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\IngredientParsingService.cs",
               "RelativeDocumentMoniker": "NutriSubs\\Services\\IngredientParsingService.cs",
               "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\IngredientParsingService.cs",
               "RelativeToolTip": "NutriSubs\\Services\\IngredientParsingService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAABBwJIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T09:55:24.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "NutriSubs.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\NutriSubs.Tests.csproj",
+              "RelativeDocumentMoniker": "NutriSubs.Tests\\NutriSubs.Tests.csproj",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\NutriSubs.Tests.csproj",
+              "RelativeToolTip": "NutriSubs.Tests\\NutriSubs.Tests.csproj",
+              "ViewState": "AgIAABoAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-21T09:57:04.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IngredientNameMatcher.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\IngredientNameMatcher.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\Services\\IngredientNameMatcher.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\IngredientNameMatcher.cs",
+              "RelativeToolTip": "NutriSubs\\Services\\IngredientNameMatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:57:41.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 38,
+              "Title": "IngredientParsingServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\IngredientParsingServiceTests.cs",
+              "RelativeDocumentMoniker": "NutriSubs.Tests\\IngredientParsingServiceTests.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\IngredientParsingServiceTests.cs",
+              "RelativeToolTip": "NutriSubs.Tests\\IngredientParsingServiceTests.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAABBwN0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:58:10.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IngredientNameMatcherTests.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\IngredientNameMatcherTests.cs",
+              "RelativeDocumentMoniker": "NutriSubs.Tests\\IngredientNameMatcherTests.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs.Tests\\IngredientNameMatcherTests.cs",
+              "RelativeToolTip": "NutriSubs.Tests\\IngredientNameMatcherTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:58:24.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "ParsedIngredient.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Models\\ParsedIngredient.cs",
               "RelativeDocumentMoniker": "NutriSubs\\Models\\ParsedIngredient.cs",
@@ -220,6 +354,19 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T09:53:21.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IngredientEntity.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Entities\\IngredientEntity.cs",
+              "RelativeDocumentMoniker": "NutriSubs\\Data\\Entities\\IngredientEntity.cs",
+              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Entities\\IngredientEntity.cs",
+              "RelativeToolTip": "NutriSubs\\Data\\Entities\\IngredientEntity.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBHwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T09:28:22.613Z",
               "EditorCaption": ""
             },
             {
@@ -237,45 +384,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IngredientEntity.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Entities\\IngredientEntity.cs",
-              "RelativeDocumentMoniker": "NutriSubs\\Data\\Entities\\IngredientEntity.cs",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Entities\\IngredientEntity.cs",
-              "RelativeToolTip": "NutriSubs\\Data\\Entities\\IngredientEntity.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAABQwCMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:28:22.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\App.xaml.cs",
-              "RelativeDocumentMoniker": "NutriSubs\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\App.xaml.cs",
-              "RelativeToolTip": "NutriSubs\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:39:37.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Seed\\SeedData.cs",
-              "RelativeDocumentMoniker": "NutriSubs\\Data\\Seed\\SeedData.cs",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Seed\\SeedData.cs",
-              "RelativeToolTip": "NutriSubs\\Data\\Seed\\SeedData.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwAwAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:33:09.429Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 18,
               "Title": "SubstitutionVerificationStatus.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Entities\\SubstitutionVerificationStatus.cs",
@@ -289,19 +397,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\MainPage.xaml",
-              "RelativeDocumentMoniker": "NutriSubs\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\MainPage.xaml",
-              "RelativeToolTip": "NutriSubs\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T08:21:04.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
               "Title": "SourceEntity.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Entities\\SourceEntity.cs",
@@ -311,45 +406,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAABBwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T09:28:32.121Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "SubstitutesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml",
-              "RelativeDocumentMoniker": "NutriSubs\\SubstitutesPage.xaml",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml",
-              "RelativeToolTip": "NutriSubs\\SubstitutesPage.xaml",
-              "ViewState": "AgIAACkAAAAAAAAAAABBwDIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T09:38:59.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "SubstitutesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml.cs",
-              "RelativeDocumentMoniker": "NutriSubs\\SubstitutesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\SubstitutesPage.xaml.cs",
-              "RelativeToolTip": "NutriSubs\\SubstitutesPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:38:45.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "SubstitutionLookupService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\SubstitutionLookupService.cs",
-              "RelativeDocumentMoniker": "NutriSubs\\Services\\SubstitutionLookupService.cs",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Services\\SubstitutionLookupService.cs",
-              "RelativeToolTip": "NutriSubs\\Services\\SubstitutionLookupService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAABBwHMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:37:39.411Z",
               "EditorCaption": ""
             },
             {
@@ -438,7 +494,7 @@
               "RelativeDocumentMoniker": "NutriSubs\\Data\\Repositories\\IngredientRepository.cs",
               "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Repositories\\IngredientRepository.cs",
               "RelativeToolTip": "NutriSubs\\Data\\Repositories\\IngredientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwLkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAIBJwKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T09:30:37.777Z",
               "EditorCaption": ""
@@ -562,18 +618,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\App.xaml",
-              "RelativeDocumentMoniker": "NutriSubs\\App.xaml",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\App.xaml",
-              "RelativeToolTip": "NutriSubs\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T08:20:45.258Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Recipe.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Models\\Recipe.cs",
@@ -613,19 +657,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RecipePage.xaml",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\RecipePage.xaml",
-              "RelativeDocumentMoniker": "NutriSubs\\RecipePage.xaml",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\RecipePage.xaml",
-              "RelativeToolTip": "NutriSubs\\RecipePage.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAABBwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T08:22:32.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\MauiProgram.cs",
@@ -639,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "GlobalXmlns.cs",
               "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\GlobalXmlns.cs",
               "RelativeDocumentMoniker": "NutriSubs\\GlobalXmlns.cs",
@@ -660,18 +691,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T08:21:55.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\AppShell.xaml",
-              "RelativeDocumentMoniker": "NutriSubs\\AppShell.xaml",
-              "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\AppShell.xaml",
-              "RelativeToolTip": "NutriSubs\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T08:20:43.923Z"
             },
             {
               "$type": "Document",

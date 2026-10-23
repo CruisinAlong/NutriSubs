@@ -15,14 +15,39 @@
             HorizontalOptions="Center"
             Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
 
-        <Label
-            x:Name="EmptyStateLabel"
+        <VerticalStackLayout
+            x:Name="EmptyStateLayout"
             IsVisible="False"
-            FontSize="15"
-            HorizontalOptions="Center"
+            Spacing="12"
             VerticalOptions="Center"
-            HorizontalTextAlignment="Center"
-            TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+            HorizontalOptions="Fill">
+
+            <Label
+                x:Name="EmptyStateLabel"
+                FontSize="15"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+
+            <!-- Just-in-case fallback: shown only when automatic recognition fails, so the
+                 user can manually retype/clarify the ingredient name and retry the lookup. -->
+            <VerticalStackLayout x:Name="ManualEntryLayout" IsVisible="False" Spacing="8">
+                <Label
+                    Text="Or type the ingredient name yourself:"
+                    FontSize="13"
+                    HorizontalOptions="Center"
+                    TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                <Entry
+                    x:Name="ManualIngredientEntry"
+                    Placeholder="e.g. calamansi"
+                    HorizontalOptions="Fill" />
+                <Button
+                    x:Name="ManualSearchButton"
+                    Text="Search"
+                    Clicked="OnManualSearchClicked"
+                    HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
 
         <CollectionView x:Name="ResultsCollectionView" IsVisible="False" SelectionMode="None">
             <CollectionView.ItemTemplate>

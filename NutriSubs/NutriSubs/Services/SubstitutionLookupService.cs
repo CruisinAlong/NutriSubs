@@ -1,5 +1,9 @@
+using System.Diagnostics;
+using System.Diagnostics;
+using NutriSubs.Data;
 using NutriSubs.Data.Entities;
 using NutriSubs.Data.Repositories;
+using NutriSubs.Models;
 
 namespace NutriSubs.Services
 {
@@ -16,17 +20,22 @@ namespace NutriSubs.Services
     {
         private readonly IIngredientRepository _ingredientRepository;
         private readonly ISubstitutionRepository _substitutionRepository;
+        private readonly DatabaseInitializer _databaseInitializer;
 
         public SubstitutionLookupService(
             IIngredientRepository ingredientRepository,
-            ISubstitutionRepository substitutionRepository)
+            ISubstitutionRepository substitutionRepository,
+            DatabaseInitializer databaseInitializer)
         {
             _ingredientRepository = ingredientRepository;
             _substitutionRepository = substitutionRepository;
+            _databaseInitializer = databaseInitializer;
         }
 
         public async Task<SubstitutionLookupResult> FindSubstitutesAsync(string searchTerm, SubstitutionUseCase? useCase = null)
         {
+            await _databaseInitializer.InitializeAsync();
+
             // Try an exact name/alias match first (covers plain search terms like "coconut milk"),
             // then fall back to full quantity/unit-aware parsing for free-form recipe lines
             // like "3 tablespoons calamansi".
@@ -34,7 +43,13 @@ namespace NutriSubs.Services
                 ?? await _ingredientRepository.FindMatchInTextAsync(searchTerm);
 
             if (ingredient is null)
+            {
+                LogLookupFailure(searchTerm);
                 return SubstitutionLookupResult.NotFound();
+            }
+
+            Debug.WriteLine(
+                $"[NutriSubs] Ingredient lookup: original=\"{searchTerm}\" -> matched=\"{ingredient.Name}\" (Id={ingredient.Id}).");
 
             var substitutions = await _substitutionRepository.GetForIngredientAsync(ingredient.Id);
 
@@ -47,7 +62,12 @@ namespace NutriSubs.Services
             var ranked = await RankAsync(verified.ToList());
 
             if (ranked.Count == 0)
+            {
+                // Recognized ingredient, but no substitutes available for it (distinct from
+                // "not recognized" - the UI should show a different message for this case).
+                Debug.WriteLine($"[NutriSubs] Ingredient \"{ingredient.Name}\" recognized but has no verified substitutions.");
                 return SubstitutionLookupResult.Empty(ingredient.Name);
+            }
 
             return new SubstitutionLookupResult
             {
@@ -55,6 +75,20 @@ namespace NutriSubs.Services
                 ResolvedIngredientName = ingredient.Name,
                 Options = ranked
             };
+        }
+
+        // Diagnostic logging only (Debug output), explaining why matching failed so the
+        // cause (bad parse vs. truly unknown ingredient) is easy to see during development.
+        private static void LogLookupFailure(string searchTerm)
+        {
+            var parsed = IngredientParsingService.Parse(searchTerm);
+
+            var reason = parsed.ParseStatus == IngredientParseStatus.Failed
+                ? "could not parse any ingredient name out of the text"
+                : $"parsed ingredient name \"{parsed.IngredientName}\" did not match any known ingredient or alias";
+
+            Debug.WriteLine(
+                $"[NutriSubs] Ingredient lookup failed: original=\"{searchTerm}\" normalized=\"{parsed.IngredientName}\" reason={reason}.");
         }
 
         private async Task<List<SubstitutionOption>> RankAsync(List<SubstitutionWithDetails> substitutions)

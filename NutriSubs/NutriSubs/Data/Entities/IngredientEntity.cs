@@ -7,7 +7,7 @@ namespace NutriSubs.Data.Entities
     [Table("Ingredients")]
     public class IngredientEntity
     {
-        [PrimaryKey]
+        [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
         // Stable, code-level key used by the seeder to find/update ingredients idempotently

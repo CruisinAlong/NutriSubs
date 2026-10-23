@@ -6,7 +6,7 @@ namespace NutriSubs
     public partial class SubstitutesPage : ContentPage
     {
         private readonly ISubstitutionLookupService _lookupService;
-        private readonly string _ingredientText;
+        private string _ingredientText;
 
         public SubstitutesPage(ISubstitutionLookupService lookupService, string ingredientText)
         {
@@ -22,11 +22,24 @@ namespace NutriSubs
             await LoadAsync();
         }
 
+        private async void OnManualSearchClicked(object? sender, EventArgs e)
+        {
+            var manualText = ManualIngredientEntry.Text?.Trim();
+
+            if (string.IsNullOrWhiteSpace(manualText))
+                return;
+
+            _ingredientText = manualText;
+            Title = $"Substitutes for {_ingredientText}";
+            await LoadAsync();
+        }
+
         private async Task LoadAsync()
         {
             LoadingIndicator.IsVisible = true;
             LoadingIndicator.IsRunning = true;
-            EmptyStateLabel.IsVisible = false;
+            EmptyStateLayout.IsVisible = false;
+            ManualEntryLayout.IsVisible = false;
             ResultsCollectionView.IsVisible = false;
 
             try
@@ -35,15 +48,18 @@ namespace NutriSubs
 
                 if (!result.IngredientFound)
                 {
-                    EmptyStateLabel.Text = $"We don't recognize \"{_ingredientText}\" yet. Try a different ingredient name.";
-                    EmptyStateLabel.IsVisible = true;
+                    // Automatic recognition failed: offer the manual-entry fallback so the
+                    // user isn't stuck, rather than just reporting the ingredient unrecognized.
+                    EmptyStateLabel.Text = $"We don't recognize \"{_ingredientText}\" yet. Try typing it a different way below.";
+                    EmptyStateLayout.IsVisible = true;
+                    ManualEntryLayout.IsVisible = true;
                     return;
                 }
 
                 if (result.Options.Count == 0)
                 {
                     EmptyStateLabel.Text = $"No verified substitutes are available for {result.ResolvedIngredientName} yet.";
-                    EmptyStateLabel.IsVisible = true;
+                    EmptyStateLayout.IsVisible = true;
                     return;
                 }
 
@@ -54,7 +70,7 @@ namespace NutriSubs
             {
                 System.Diagnostics.Debug.WriteLine($"[NutriSubs] Substitution lookup failed: {ex}");
                 EmptyStateLabel.Text = "Something went wrong while looking up substitutes. Please try again later.";
-                EmptyStateLabel.IsVisible = true;
+                EmptyStateLayout.IsVisible = true;
             }
             finally
             {
