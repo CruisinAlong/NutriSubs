@@ -1,6 +1,6 @@
 # NutriSubs
 
-NutriSubs is a .NET MAUI mobile app that helps you cook with what you have. Browse sample Filipino and everyday recipes, then look up budget-friendly, verified substitutes for ingredients you don't have on hand — including common Filipino ingredient names (e.g. *calamansi*, *patis*, *gata*, *talong*).
+NutriSubs is a mobile app that helps you cook with what you have. Browse sample Filipino and everyday recipes, then look up budget-friendly, verified substitutes for ingredients you don't have on hand — including common Filipino ingredient names (e.g. *calamansi*, *patis*, *gata*, *talong*).
 
 ## Download the APK
 
