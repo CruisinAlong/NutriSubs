@@ -47,7 +47,8 @@
               "RelativeToolTip": "NutriSubs\\SubstitutesPage.xaml",
               "ViewState": "AgIAABIAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-10-21T13:21:18.312Z"
+              "WhenOpened": "2026-10-21T13:21:18.312Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,7 +58,7 @@
               "RelativeDocumentMoniker": "NutriSubs\\Data\\Seed\\SeedData.cs",
               "ToolTip": "C:\\Users\\USER\\Dropbox\\PC\\Documents\\GitHub\\NutriSubs\\NutriSubs\\NutriSubs\\Data\\Seed\\SeedData.cs",
               "RelativeToolTip": "NutriSubs\\Data\\Seed\\SeedData.cs",
-              "ViewState": "AgIAAIIBAAAAAAAAAAASwJUBAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAKYBAAAAAAAAAAASwJUBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-21T09:33:09.429Z",
               "EditorCaption": ""
@@ -72,7 +73,8 @@
               "RelativeToolTip": "NutriSubs\\SubstitutesPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:38:45.186Z"
+              "WhenOpened": "2026-10-21T09:38:45.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,7 +86,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\IngredientRecognitionSelfCheck.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAA2wGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T12:26:34.846Z"
+              "WhenOpened": "2026-10-21T12:26:34.846Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -96,7 +99,8 @@
               "RelativeToolTip": "NutriSubs\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:39:37.349Z"
+              "WhenOpened": "2026-10-21T09:39:37.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -108,7 +112,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\SubstitutionLookupService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:37:39.411Z"
+              "WhenOpened": "2026-10-21T09:37:39.411Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -120,7 +125,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\IngredientParsingService.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAABBwJIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:55:24.203Z"
+              "WhenOpened": "2026-10-21T09:55:24.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -132,7 +138,8 @@
               "RelativeToolTip": "NutriSubs.Tests\\NutriSubs.Tests.csproj",
               "ViewState": "AgIAABoAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-10-21T09:57:04.218Z"
+              "WhenOpened": "2026-10-21T09:57:04.218Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -144,7 +151,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\IngredientNameMatcher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:57:41.941Z"
+              "WhenOpened": "2026-10-21T09:57:41.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -156,7 +164,8 @@
               "RelativeToolTip": "NutriSubs.Tests\\IngredientParsingServiceTests.cs",
               "ViewState": "AgIAALIAAAAAAAAAAABBwN0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:58:10.315Z"
+              "WhenOpened": "2026-10-21T09:58:10.315Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -168,7 +177,8 @@
               "RelativeToolTip": "NutriSubs.Tests\\IngredientNameMatcherTests.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:58:24.669Z"
+              "WhenOpened": "2026-10-21T09:58:24.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -180,7 +190,8 @@
               "RelativeToolTip": "NutriSubs\\Models\\ParsedIngredient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:53:21.562Z"
+              "WhenOpened": "2026-10-21T09:53:21.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -192,7 +203,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\IngredientEntity.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAIBHwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:28:22.613Z"
+              "WhenOpened": "2026-10-21T09:28:22.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -204,7 +216,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\IngredientAliasEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:28:27.542Z"
+              "WhenOpened": "2026-10-21T09:28:27.542Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -216,7 +229,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SubstitutionVerificationStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:28:48.543Z"
+              "WhenOpened": "2026-10-21T09:28:48.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -228,7 +242,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SourceEntity.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAABBwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:28:32.121Z"
+              "WhenOpened": "2026-10-21T09:28:32.121Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -240,7 +255,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\SubstitutionLookupResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:37:25.084Z"
+              "WhenOpened": "2026-10-21T09:37:25.084Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -252,7 +268,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\SubstitutionDatabaseException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:33:46.788Z"
+              "WhenOpened": "2026-10-21T09:33:46.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -264,7 +281,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\DatabaseInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:33:42.449Z"
+              "WhenOpened": "2026-10-21T09:33:42.449Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -276,7 +294,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Seed\\DatabaseSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:31:22.766Z"
+              "WhenOpened": "2026-10-21T09:31:22.766Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -288,7 +307,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Repositories\\SubstitutionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:30:59.722Z"
+              "WhenOpened": "2026-10-21T09:30:59.722Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -300,7 +320,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Repositories\\ISubstitutionRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:30:46.091Z"
+              "WhenOpened": "2026-10-21T09:30:46.091Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -312,7 +333,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Repositories\\IngredientRepository.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAIBJwKQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:30:37.777Z"
+              "WhenOpened": "2026-10-21T09:30:37.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -324,7 +346,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Repositories\\IIngredientRepository.cs",
               "ViewState": "AgIAABIAAAAAAAAAAABQwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:30:26.238Z"
+              "WhenOpened": "2026-10-21T09:30:26.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -336,7 +359,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\SubstitutionDatabase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:47.796Z"
+              "WhenOpened": "2026-10-21T09:29:47.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -348,7 +372,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\SchemaVersion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:39.778Z"
+              "WhenOpened": "2026-10-21T09:29:39.778Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -360,7 +385,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SchemaInfoEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:30.294Z"
+              "WhenOpened": "2026-10-21T09:29:30.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -372,7 +398,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SubstitutionUseCaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:23.365Z"
+              "WhenOpened": "2026-10-21T09:29:23.365Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -384,7 +411,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SubstitutionUseCase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:18.323Z"
+              "WhenOpened": "2026-10-21T09:29:18.323Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -396,7 +424,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SubstitutionComponentEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:12.702Z"
+              "WhenOpened": "2026-10-21T09:29:12.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -408,7 +437,8 @@
               "RelativeToolTip": "NutriSubs\\Data\\Entities\\SubstitutionEntity.cs",
               "ViewState": "AgIAABEAAAAAAAAAAABQwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:29:04.442Z"
+              "WhenOpened": "2026-10-21T09:29:04.442Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -420,7 +450,8 @@
               "RelativeToolTip": "NutriSubs\\RecipePage.xaml.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAEBUwGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T08:22:41.621Z"
+              "WhenOpened": "2026-10-21T08:22:41.621Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -432,7 +463,8 @@
               "RelativeToolTip": "NutriSubs\\Models\\Recipe.cs",
               "ViewState": "AgIAABkAAAAAAAAAAABQwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T08:21:41.541Z"
+              "WhenOpened": "2026-10-21T08:21:41.541Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -444,7 +476,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\RecipeImportException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:02:16.308Z"
+              "WhenOpened": "2026-10-21T09:02:16.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -456,7 +489,8 @@
               "RelativeToolTip": "NutriSubs\\Services\\RecipeImportService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T09:03:03.066Z"
+              "WhenOpened": "2026-10-21T09:03:03.066Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -468,7 +502,8 @@
               "RelativeToolTip": "NutriSubs\\MauiProgram.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T08:42:52.597Z"
+              "WhenOpened": "2026-10-21T08:42:52.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -528,7 +563,8 @@
               "RelativeToolTip": "NutriSubs\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-21T08:21:04.935Z"
+              "WhenOpened": "2026-10-21T08:21:04.935Z",
+              "EditorCaption": ""
 >>>>>>> Stashed changes
             }
           ]

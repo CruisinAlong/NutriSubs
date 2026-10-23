@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="6.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+    <PackageReference Include="xunit" Version="2.9.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="Xunit" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Link the parser and its model directly rather than referencing the whole MAUI
+         project (which targets Android/iOS/MacCatalyst/Windows and uses MAUI-only APIs
+         like FileSystem.AppDataDirectory elsewhere). The parser itself has no MAUI
+         dependencies, so it can be compiled standalone for fast, deterministic unit tests. -->
+    <Compile Include="..\NutriSubs\Services\IngredientParsingService.cs" Link="Linked\IngredientParsingService.cs" />
+    <Compile Include="..\NutriSubs\Services\IngredientNameMatcher.cs" Link="Linked\IngredientNameMatcher.cs" />
+    <Compile Include="..\NutriSubs\Models\ParsedIngredient.cs" Link="Linked\ParsedIngredient.cs" />
+  </ItemGroup>
+
+</Project>

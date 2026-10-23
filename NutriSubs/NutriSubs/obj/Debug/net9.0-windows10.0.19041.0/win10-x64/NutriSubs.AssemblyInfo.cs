@@ -11,10 +11,14 @@
 using System;
 using System.Reflection;
 
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PackageName", "com.companyname.nutrisubs")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.PublisherName", "User Name")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Name", "NutriSubs")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("Microsoft.Maui.ApplicationModel.AppInfo.Version", "1.0.0.1")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NutriSubs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3795363cebd467bbce4264fdb92b66d2f27c7738")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cd4354c044f9c2bf7675b6f7c637e71080bbbd87")]
 [assembly: System.Reflection.AssemblyProductAttribute("NutriSubs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NutriSubs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

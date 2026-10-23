@@ -1,0 +1,75 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NutriSubs.SubstitutesPage"
+             Title="Substitutes">
+
+    <Grid Padding="24" RowSpacing="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <ActivityIndicator
+            x:Name="LoadingIndicator"
+            IsVisible="False"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Color="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource PrimaryDark}}" />
+
+        <VerticalStackLayout
+            x:Name="EmptyStateLayout"
+            IsVisible="False"
+            Spacing="12"
+            VerticalOptions="Center"
+            HorizontalOptions="Fill">
+
+            <Label
+                x:Name="EmptyStateLabel"
+                FontSize="15"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+
+            <!-- Just-in-case fallback: shown only when automatic recognition fails, so the
+                 user can manually retype/clarify the ingredient name and retry the lookup. -->
+            <VerticalStackLayout x:Name="ManualEntryLayout" IsVisible="False" Spacing="8">
+                <Label
+                    Text="Or type the ingredient name yourself:"
+                    FontSize="13"
+                    HorizontalOptions="Center"
+                    TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                <Entry
+                    x:Name="ManualIngredientEntry"
+                    Placeholder="e.g. calamansi"
+                    HorizontalOptions="Fill" />
+                <Button
+                    x:Name="ManualSearchButton"
+                    Text="Search"
+                    Clicked="OnManualSearchClicked"
+                    HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+
+        <CollectionView x:Name="ResultsCollectionView" IsVisible="False" SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame
+                        Margin="0,6"
+                        Padding="14"
+                        CornerRadius="12"
+                        BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}"
+                        BorderColor="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}">
+                        <VerticalStackLayout Spacing="6">
+                            <Label Text="{Binding ReplacementText}" FontAttributes="Bold" FontSize="16" />
+                            <Label Text="{Binding Instructions}" FontSize="13" />
+                            <Label Text="{Binding FlavorImpact, StringFormat='Flavor: {0}'}" FontSize="12" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                            <Label Text="{Binding TextureImpact, StringFormat='Texture: {0}'}" FontSize="12" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                            <Label Text="{Binding Limitations, StringFormat='Note: {0}'}" FontSize="12" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                            <Label Text="{Binding SourceName, StringFormat='Source: {0}'}" FontSize="11" TextColor="{AppThemeBinding Light={StaticResource Gray500}, Dark={StaticResource Gray300}}" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+
+</ContentPage>
